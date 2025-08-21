@@ -1,29 +1,32 @@
 <template>
-  <div class="filter-box">
-    <!-- Suchfeld -->
-    <input
-      type="text"
-      placeholder="Suche..."
-      v-model="localSearch"
-      @input="$emit('update-search', localSearch)"
-    />
+ <div class="filter-box">
+    <!-- Suchfeld oben -->
+    <div class="search-container">
+      <input
+        type="text"
+        placeholder="Suche..."
+        v-model="localSearch"
+        @input="$emit('update-search', localSearch)"
+      />
+    </div>
 
-    <!-- Reihenfolge Button -->
-    <button @click="$emit('toggle-order')">
-      Reihenfolge {{ reverseOrder ? 'umgekehrt' : 'normal' }}
-    </button>
+    <!-- Buttons & Selects darunter -->
+    <div class="controls-container">
+      <button @click="$emit('toggle-order')">
+        Reihenfolge {{ reverseOrder ? 'umgekehrt' : 'normal' }}
+      </button>
 
-    <!-- Size Select -->
-    <select v-model="localSize" @change="$emit('update-size', localSize)">
-      <option value="">Alle Größen</option>
-      <option
-        v-for="size in uniqueSizes"
-        :key="size"
-        :value="size"
-      >
-        {{ size }}
-      </option>
-    </select>
+      <select v-model="localSize" @change="$emit('update-size', localSize)">
+        <option value="">Alle Größen</option>
+        <option
+          v-for="size in uniqueSizes"
+          :key="size"
+          :value="size"
+        >
+          {{ size }}
+        </option>
+      </select>
+    </div>
   </div>
 </template>
 
@@ -60,9 +63,24 @@ watch(() => props.selectedSize, val => localSize.value = val)
   border: 1px solid #ccc;
   border-radius: 8px;
   display: flex;
+  flex-direction: column; /* Spaltenlayout: Suche oben, Controls unten */
   gap: 1rem;
   align-items: center;
   justify-content: center;
+}
+
+/* Suchfeld zentrieren */
+.search-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Buttons & Select nebeneinander und responsive */
+.controls-container {
+  display: flex;
   flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
 }
 </style>
