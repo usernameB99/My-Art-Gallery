@@ -40,7 +40,7 @@ import GalleryFilter from "./GalleryFilter.vue"
 
 const columns = ref([])
 const columnCount = ref(1)
-const reverseOrder = ref(false)
+const reverseOrder = ref(true)
 const showFilters = ref(false)
 
 const selectedSize = ref('')

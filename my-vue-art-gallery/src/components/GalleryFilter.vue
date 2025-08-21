@@ -13,7 +13,7 @@
     <!-- Buttons & Selects darunter -->
     <div class="controls-container">
       <button @click="$emit('toggle-order')">
-        Reihenfolge {{ reverseOrder ? 'umgekehrt' : 'normal' }}
+        {{ reverseOrder ? 'Newest' : 'Oldest' }} First
       </button>
 
       <select v-model="localSize" @change="$emit('update-size', localSize)">
