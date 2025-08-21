@@ -1,9 +1,21 @@
 <template>
+  <!-- Toggle-Button für Filter -->
+  <button @click="showFilters = !showFilters">
+    {{ showFilters ? 'Hide Filters' : 'Show Filters' }}
+  </button>
 
-   <button @click="toggleOrder">
-  Reihenfolge {{ reverseOrder ? 'umgekehrt' : 'normal' }}
-</button>
+  <!-- Filter-Komponente -->
+  <GalleryFilter
+    v-if="showFilters"
+    :reverse-order="reverseOrder"
+    @toggle-order="toggleOrder"
+    :selected-size="selectedSize"
+    @update-size="updateSize"
+    :search-query="searchQuery"
+    @update-search="updateSearch"
+  />
 
+  <!-- Galerie -->
   <div class="gallery-grid">
     <div
       v-for="(column, colIndex) in columns"
@@ -22,35 +34,74 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onBeforeUnmount } from 'vue'
+import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
 import pictureData from "../assets/data/pictureData.json"
+import GalleryFilter from "./GalleryFilter.vue"
 
 const columns = ref([])
 const columnCount = ref(1)
 const reverseOrder = ref(false)
+const showFilters = ref(false)
 
-function toggleOrder() { //für buttonsteuerung der bildreihenfolge umdrehen
+const selectedSize = ref('')
+const searchQuery = ref('')
+
+// --- FILTERED IMAGES ---
+const filteredImages = computed(() => {
+  let images = [...pictureData]
+
+  // Reihenfolge
+  if (reverseOrder.value) {
+    images = images.reverse()
+  }
+
+  // Size-Filter
+  if (selectedSize.value) {
+    images = images.filter(img => img.size === selectedSize.value)
+  }
+
+  // Suche (in name + description)
+  if (searchQuery.value.trim()) {
+    const q = searchQuery.value.toLowerCase()
+    images = images.filter(
+      img =>
+        img.name.toLowerCase().includes(q) ||
+        img.description.toLowerCase().includes(q)
+    )
+  }
+
+  return images
+})
+
+// --- METHODEN ---
+function toggleOrder() {
   reverseOrder.value = !reverseOrder.value
   distributeImages()
 }
 
+function updateSize(size) {
+  selectedSize.value = size
+  distributeImages()
+}
+
+function updateSearch(query) {
+  searchQuery.value = query
+  distributeImages()
+}
+
 function distributeImages() {
-  // Init leere Arrays je Spalte
   const cols = Array.from({ length: columnCount.value }, () => [])
 
-  const images = reverseOrder.value //hier reihenfolge umdreh funktion
-  ? [...pictureData].reverse()
-  : pictureData
-  
+  const images = filteredImages.value
+
   images.forEach((img, index) => {
-    // Verteile horizontal: jedes Bild kommt in (index % spaltenanzahl)
     cols[index % columnCount.value].push(img)
   })
 
   columns.value = cols
 }
 
-// Dynamisch Anzahl Spalten ermitteln basierend auf Fensterbreite
+// Dynamische Spaltenanzahl
 function calculateColumnCount() {
   const width = window.innerWidth
 
@@ -65,6 +116,7 @@ function calculateColumnCount() {
 
 onMounted(() => {
   calculateColumnCount()
+  distributeImages() // <--- init befüllen
   window.addEventListener('resize', calculateColumnCount)
 })
 
