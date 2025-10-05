@@ -1,296 +1,478 @@
 [
   {
-    "name": "Blätterrauschen",
-    "path": "./images/0.png",
-    "date": "2023-06-12",
-    "description": "Ein zarter Hauch von Wind in den Bäumen.",
-    "size": "A4"
-  },
-  {
-    "name": "Stadt in Nebel",
-    "path": "./images/1.png",
+    "name": "placeholder",
+    "path": "./images/1.jpg",
     "date": "2023-08-03",
-    "description": "Häuser, die im Dunst fast verschwinden.",
+    "description": "no description here yet",
     "size": "A6"
   },
   {
-    "name": "Verträumter Blick",
-    "path": "./images/2.png",
+    "name": "placeholder",
+    "path": "./images/2.jpg",
     "date": "2022-12-17",
-    "description": "Ein nachdenklicher Blick in die Ferne.",
+    "description": "no description here yet",
     "size": "A4"
   },
   {
-    "name": "Goldene Stunde",
-    "path": "./images/3.png",
+    "name": "placeholder",
+    "path": "./images/3.jpg",
     "date": "2023-04-21",
-    "description": "Lichtreflexe in warmem Abendlicht.",
+    "description": "no description here yet",
     "size": "A5"
   },
   {
-    "name": "Verlassener Strand",
-    "path": "./images/4.png",
+    "name": "placeholder",
+    "path": "./images/4.jpg",
     "date": "2023-07-15",
-    "description": "Weicher Sand und rauschendes Meer.",
+    "description": "no description here yet",
     "size": "A6"
   },
   {
-    "name": "Sommerwiese",
-    "path": "./images/5.png",
+    "name": "placeholder",
+    "path": "./images/5.jpg",
     "date": "2022-06-30",
-    "description": "Blumenwiese voller summender Bienen.",
+    "description": "no description here yet",
     "size": "A4"
   },
   {
-    "name": "Lichter der Stadt",
-    "path": "./images/6.png",
+    "name": "placeholder",
+    "path": "./images/6.jpg",
     "date": "2023-11-02",
-    "description": "Ein Meer aus Lichtern in der Dunkelheit.",
+    "description": "no description here yet",
     "size": "A5"
   },
   {
-    "name": "Verregnetes Fenster",
-    "path": "./images/7.png",
+    "name": "placeholder",
+    "path": "./images/7.jpg",
     "date": "2024-02-08",
-    "description": "Wassertropfen tanzen auf Glas.",
+    "description": "no description here yet",
     "size": "A6"
   },
   {
-    "name": "Abstrakte Form",
-    "path": "./images/8.png",
+    "name": "placeholder",
+    "path": "./images/8.jpg",
     "date": "2023-09-19",
-    "description": "Linien und Flächen ohne Ordnung.",
+    "description": "no description here yet",
     "size": "A4"
   },
   {
-    "name": "Spiegelung",
-    "path": "./images/9.png",
+    "name": "placeholder",
+    "path": "./images/9.jpg",
     "date": "2023-05-04",
-    "description": "Ein See, der wie ein Spiegel wirkt.",
+    "description": "no description here yet",
     "size": "A6"
   },
   {
-    "name": "Holzstruktur",
-    "path": "./images/10.png",
+    "name": "placeholder",
+    "path": "./images/10.jpg",
     "date": "2022-10-27",
-    "description": "Die Maserung eines alten Baumstamms.",
+    "description": "no description here yet",
     "size": "A5"
   },
   {
-    "name": "Farbenmeer",
-    "path": "./images/11.png",
+    "name": "placeholder",
+    "path": "./images/11.jpg",
     "date": "2023-03-15",
-    "description": "Ein wilder Mix aus Farben.",
+    "description": "no description here yet",
     "size": "A4"
   },
   {
-    "name": "Himmelslinien",
-    "path": "./images/12.png",
+    "name": "placeholder",
+    "path": "./images/12.jpg",
     "date": "2022-11-23",
-    "description": "Wolken ziehen in Streifen über den Himmel.",
+    "description": "no description here yet",
     "size": "A4"
   },
   {
-    "name": "Geheimnisvoller Pfad",
-    "path": "./images/13.png",
+    "name": "placeholder",
+    "path": "./images/13.jpg",
     "date": "2024-01-10",
-    "description": "Ein Weg, der im Schatten verschwindet.",
+    "description": "no description here yet",
     "size": "A6"
   },
   {
-    "name": "Licht & Schatten",
-    "path": "./images/14.png",
+    "name": "placeholder",
+    "path": "./images/14.jpg",
     "date": "2023-06-06",
-    "description": "Ein Spiel aus Hell und Dunkel.",
+    "description": "no description here yet",
     "size": "A5"
   },
   {
-    "name": "Ruhepol",
-    "path": "./images/15.png",
+    "name": "placeholder",
+    "path": "./images/15.jpg",
     "date": "2023-08-14",
-    "description": "Ein ruhiger Moment im Alltag.",
+    "description": "no description here yet",
     "size": "A6"
   },
   {
-    "name": "Kräuselnde Oberfläche",
-    "path": "./images/16.png",
+    "name": "placeholder",
+    "path": "./images/16.jpg",
     "date": "2023-05-23",
-    "description": "Wasser, das in kleinen Wellen tanzt.",
+    "description": "no description here yet",
     "size": "A4"
   },
   {
-    "name": "Vergangene Zeit",
-    "path": "./images/17.png",
+    "name": "placeholder",
+    "path": "./images/17.jpg",
     "date": "2022-09-10",
-    "description": "Alte Mauern erzählen Geschichten.",
+    "description": "no description here yet",
     "size": "A5"
   },
   {
-    "name": "Stillleben",
-    "path": "./images/18.png",
+    "name": "placeholder",
+    "path": "./images/18.jpg",
     "date": "2023-10-03",
-    "description": "Ein ruhiges Arrangement aus Alltagsgegenständen.",
+    "description": "no description here yet",
     "size": "A4"
   },
   {
-    "name": "Lichterkette",
-    "path": "./images/19.png",
+    "name": "placeholder",
+    "path": "./images/19.jpg",
     "date": "2023-12-01",
-    "description": "Lichter in der Dunkelheit, wie kleine Sterne.",
+    "description": "no description here yet",
     "size": "A6"
   },
   {
-    "name": "Morgentau",
-    "path": "./images/20.png",
+    "name": "placeholder",
+    "path": "./images/20.jpg",
     "date": "2023-04-07",
-    "description": "Tautropfen auf einem Blatt bei Sonnenaufgang.",
+    "description": "no description here yet",
     "size": "A5"
   },
   {
-    "name": "Zugvögel",
-    "path": "./images/21.png",
+    "name": "placeholder",
+    "path": "./images/21.jpg",
     "date": "2022-10-14",
-    "description": "Vögel am Himmel auf ihrer Reise.",
+    "description": "no description here yet",
     "size": "A6"
   },
   {
-    "name": "Laternenlicht",
-    "path": "./images/22.png",
+    "name": "placeholder",
+    "path": "./images/22.jpg",
     "date": "2023-11-12",
-    "description": "Ein Laternenlicht in der Herbstnacht.",
+    "description": "no description here yet",
     "size": "A4"
   },
   {
-    "name": "Stille Straße",
-    "path": "./images/23.png",
+    "name": "placeholder",
+    "path": "./images/23.jpg",
     "date": "2023-01-09",
-    "description": "Eine verlassene Straße im Morgengrauen.",
+    "description": "no description here yet",
     "size": "A6"
   },
   {
-    "name": "Farbenspiel",
-    "path": "./images/24.png",
+    "name": "placeholder",
+    "path": "./images/24.jpg",
     "date": "2023-07-29",
-    "description": "Lichtspiele auf einer bunten Wand.",
+    "description": "no description here yet",
     "size": "A5"
   },
   {
-    "name": "Wasserfarben-Traum",
-    "path": "./images/25.png",
+    "name": "placeholder",
+    "path": "./images/25.jpg",
     "date": "2024-02-17",
-    "description": "Pastellfarbene Aquarellkomposition.",
+    "description": "no description here yet",
     "size": "A4"
   },
   {
-    "name": "Fensterblick",
-    "path": "./images/26.png",
+    "name": "placeholder",
+    "path": "./images/26.jpg",
     "date": "2023-03-02",
-    "description": "Ein Blick aus dem Fenster auf einen regnerischen Tag.",
+    "description": "no description here yet",
     "size": "A6"
   },
   {
-    "name": "Feine Linien",
-    "path": "./images/27.png",
+    "name": "placeholder",
+    "path": "./images/27.jpg",
     "date": "2023-09-21",
-    "description": "Filigrane Linien wie ein Netz.",
+    "description": "no description here yet",
     "size": "A5"
   },
   {
-    "name": "Bergspitze",
-    "path": "./images/28.png",
+    "name": "placeholder",
+    "path": "./images/28.jpg",
     "date": "2023-08-05",
-    "description": "Ein schneebedeckter Gipfel im Sonnenlicht.",
+    "description": "no description here yet",
     "size": "A4"
   },
   {
-    "name": "Tanzender Rauch",
-    "path": "./images/29.png",
+    "name": "placeholder",
+    "path": "./images/29.jpg",
     "date": "2022-11-30",
-    "description": "Dünne Rauchfäden, die sich auflösen.",
+    "description": "no description here yet",
     "size": "A6"
   },
   {
-    "name": "Winterwald",
-    "path": "./images/30.png",
+    "name": "placeholder",
+    "path": "./images/30.jpg",
     "date": "2023-12-22",
-    "description": "Ein verschneiter Wald im frühen Morgenlicht.",
+    "description": "no description here yet",
     "size": "A4"
   },
   {
-    "name": "Rostige Struktur",
-    "path": "./images/31.png",
+    "name": "placeholder",
+    "path": "./images/31.jpg",
     "date": "2023-02-11",
-    "description": "Verwitterter Stahl mit Charme.",
+    "description": "no description here yet",
     "size": "A5"
   },
   {
-    "name": "Lichterspiel",
-    "path": "./images/32.png",
+    "name": "placeholder",
+    "path": "./images/32.jpg",
     "date": "2023-06-28",
-    "description": "Tanzende Lichtpunkte an einer Wand.",
+    "description": "no description here yet",
     "size": "A6"
   },
   {
-    "name": "Horizontlinie",
-    "path": "./images/33.png",
+    "name": "placeholder",
+    "path": "./images/33.jpg",
     "date": "2023-05-12",
-    "description": "Ein ruhiger Horizont am Meer.",
+    "description": "no description here yet",
     "size": "A4"
   },
   {
-    "name": "Flüchtiger Moment",
-    "path": "./images/34.png",
+    "name": "placeholder",
+    "path": "./images/34.jpg",
     "date": "2023-10-18",
-    "description": "Ein Blick, der nur kurz bestand.",
+    "description": "no description here yet",
     "size": "A6"
   },
   {
-    "name": "Wolkenspiel",
-    "path": "./images/35.png",
+    "name": "placeholder",
+    "path": "./images/35.jpg",
     "date": "2022-07-26",
-    "description": "Wolkenformationen wie Skulpturen.",
+    "description": "no description here yet",
     "size": "A4"
   },
   {
-    "name": "Straßenflucht",
-    "path": "./images/36.png",
+    "name": "placeholder",
+    "path": "./images/36.jpg",
     "date": "2023-03-27",
-    "description": "Eine Straße zieht sich durch die Landschaft.",
+    "description": "no description here yet",
     "size": "A5"
   },
   {
-    "name": "Verwaschene Erinnerung",
-    "path": "./images/37.png",
+    "name": "placeholder",
+    "path": "./images/37.jpg",
     "date": "2023-01-31",
-    "description": "Ein Bild wie aus einem Traum.",
+    "description": "no description here yet",
     "size": "A4"
   },
   {
-    "name": "Struktur & Fläche",
-    "path": "./images/38.png",
+    "name": "placeholder",
+    "path": "./images/38.jpg",
     "date": "2024-04-04",
-    "description": "Gegenüberstellung von Form und Textur.",
+    "description": "no description here yet",
     "size": "A6"
   },
   {
-    "name": "Neonlicht",
-    "path": "./images/39.png",
+    "name": "placeholder",
+    "path": "./images/39.jpg",
     "date": "2023-11-29",
-    "description": "Grelles Licht in der Dunkelheit.",
+    "description": "no description here yet",
     "size": "A5"
   },
   {
-    "name": "Verwinkelter Blick",
-    "path": "./images/40.png",
+    "name": "placeholder",
+    "path": "./images/40.jpg",
     "date": "2023-02-03",
-    "description": "Ein ungewöhnlicher Winkel auf ein vertrautes Objekt.",
+    "description": "no description here yet",
     "size": "A6"
   },
   {
-    "name": "Schwarzweißkontrast",
-    "path": "./images/41.png",
+    "name": "placeholder",
+    "path": "./images/41.jpg",
     "date": "2023-04-19",
-    "description": "Ein Spiel aus Hell und Dunkel.",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/42.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/43.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/44.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/45.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/46.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/47.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/48.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/49.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/50.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/51.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/52.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/53.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/54.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/55.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/56.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/57.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/58.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/59.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/60.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/61.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/62.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/63.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/64.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/65.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/66.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/67.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
+    "size": "A4"
+  },
+  {
+    "name": "placeholder",
+    "path": "./images/68.jpg",
+    "date": "2023-04-19",
+    "description": "no description here yet",
     "size": "A4"
   }
 ]
