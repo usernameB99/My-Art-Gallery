@@ -13,6 +13,8 @@
     @update-size="updateSize"
     :search-query="searchQuery"
     @update-search="updateSearch"
+    @toggle-mock="toggleMockData"
+    :use-mock-data="useMockData"
   />
 
   <!-- Galerie -->
@@ -36,19 +38,22 @@
 <script setup>
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
 import pictureData from "../assets/data/pictureData.json"
+import mockPictureData from "../assets/data/mockPictureData.json"
 import GalleryFilter from "./GalleryFilter.vue"
 
 const columns = ref([])
 const columnCount = ref(1)
 const reverseOrder = ref(true)
 const showFilters = ref(false)
+const useMockData = ref(false) // 👈 Mockdaten-Schalter
 
 const selectedSize = ref('')
 const searchQuery = ref('')
 
 // --- FILTERED IMAGES ---
 const filteredImages = computed(() => {
-  let images = [...pictureData]
+  // 👇 Dynamisch zwischen echten und Mockdaten wechseln
+  let images = useMockData.value ? [...mockPictureData] : [...pictureData]
 
   // Reihenfolge
   if (reverseOrder.value) {
@@ -65,8 +70,8 @@ const filteredImages = computed(() => {
     const q = searchQuery.value.toLowerCase()
     images = images.filter(
       img =>
-        img.name.toLowerCase().includes(q) ||
-        img.description.toLowerCase().includes(q)
+        img.name?.toLowerCase().includes(q) ||
+        img.description?.toLowerCase().includes(q)
     )
   }
 
@@ -89,15 +94,21 @@ function updateSearch(query) {
   distributeImages()
 }
 
+// 👇 Umschalten zwischen Mock- und echten Daten
+function toggleMockData() {
+  useMockData.value = !useMockData.value
+  // Optional: Filter zurücksetzen
+  selectedSize.value = ''
+  searchQuery.value = ''
+  distributeImages()
+}
+
 function distributeImages() {
   const cols = Array.from({ length: columnCount.value }, () => [])
-
   const images = filteredImages.value
-
   images.forEach((img, index) => {
     cols[index % columnCount.value].push(img)
   })
-
   columns.value = cols
 }
 
@@ -109,14 +120,14 @@ function calculateColumnCount() {
   else if (width >= 1024) columnCount.value = 4
   else if (width >= 768) columnCount.value = 3
   else if (width >= 600) columnCount.value = 2
-  else columnCount.value = 1
+  /* else columnCount.value = 1 */
 
   distributeImages()
 }
 
 onMounted(() => {
   calculateColumnCount()
-  distributeImages() // <--- init befüllen
+  distributeImages()
   window.addEventListener('resize', calculateColumnCount)
 })
 

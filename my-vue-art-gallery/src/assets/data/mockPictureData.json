@@ -1,294 +1,294 @@
 [
   {
     "name": "Blätterrauschen",
-    "path": "./images/0.png",
+    "path": "./mockImages/0.png",
     "date": "2023-06-12",
     "description": "Ein zarter Hauch von Wind in den Bäumen.",
     "size": "A4"
   },
   {
     "name": "Stadt in Nebel",
-    "path": "./images/1.png",
+    "path": "./mockImages/1.png",
     "date": "2023-08-03",
     "description": "Häuser, die im Dunst fast verschwinden.",
     "size": "A6"
   },
   {
     "name": "Verträumter Blick",
-    "path": "./images/2.png",
+    "path": "./mockImages/2.png",
     "date": "2022-12-17",
     "description": "Ein nachdenklicher Blick in die Ferne.",
     "size": "A4"
   },
   {
     "name": "Goldene Stunde",
-    "path": "./images/3.png",
+    "path": "./mockImages/3.png",
     "date": "2023-04-21",
     "description": "Lichtreflexe in warmem Abendlicht.",
     "size": "A5"
   },
   {
     "name": "Verlassener Strand",
-    "path": "./images/4.png",
+    "path": "./mockImages/4.png",
     "date": "2023-07-15",
     "description": "Weicher Sand und rauschendes Meer.",
     "size": "A6"
   },
   {
     "name": "Sommerwiese",
-    "path": "./images/5.png",
+    "path": "./mockImages/5.png",
     "date": "2022-06-30",
     "description": "Blumenwiese voller summender Bienen.",
     "size": "A4"
   },
   {
     "name": "Lichter der Stadt",
-    "path": "./images/6.png",
+    "path": "./mockImages/6.png",
     "date": "2023-11-02",
     "description": "Ein Meer aus Lichtern in der Dunkelheit.",
     "size": "A5"
   },
   {
     "name": "Verregnetes Fenster",
-    "path": "./images/7.png",
+    "path": "./mockImages/7.png",
     "date": "2024-02-08",
     "description": "Wassertropfen tanzen auf Glas.",
     "size": "A6"
   },
   {
     "name": "Abstrakte Form",
-    "path": "./images/8.png",
+    "path": "./mockImages/8.png",
     "date": "2023-09-19",
     "description": "Linien und Flächen ohne Ordnung.",
     "size": "A4"
   },
   {
     "name": "Spiegelung",
-    "path": "./images/9.png",
+    "path": "./mockImages/9.png",
     "date": "2023-05-04",
     "description": "Ein See, der wie ein Spiegel wirkt.",
     "size": "A6"
   },
   {
     "name": "Holzstruktur",
-    "path": "./images/10.png",
+    "path": "./mockImages/10.png",
     "date": "2022-10-27",
     "description": "Die Maserung eines alten Baumstamms.",
     "size": "A5"
   },
   {
     "name": "Farbenmeer",
-    "path": "./images/11.png",
+    "path": "./mockImages/11.png",
     "date": "2023-03-15",
     "description": "Ein wilder Mix aus Farben.",
     "size": "A4"
   },
   {
     "name": "Himmelslinien",
-    "path": "./images/12.png",
+    "path": "./mockImages/12.png",
     "date": "2022-11-23",
     "description": "Wolken ziehen in Streifen über den Himmel.",
     "size": "A4"
   },
   {
     "name": "Geheimnisvoller Pfad",
-    "path": "./images/13.png",
+    "path": "./mockImages/13.png",
     "date": "2024-01-10",
     "description": "Ein Weg, der im Schatten verschwindet.",
     "size": "A6"
   },
   {
     "name": "Licht & Schatten",
-    "path": "./images/14.png",
+    "path": "./mockImages/14.png",
     "date": "2023-06-06",
     "description": "Ein Spiel aus Hell und Dunkel.",
     "size": "A5"
   },
   {
     "name": "Ruhepol",
-    "path": "./images/15.png",
+    "path": "./mockImages/15.png",
     "date": "2023-08-14",
     "description": "Ein ruhiger Moment im Alltag.",
     "size": "A6"
   },
   {
     "name": "Kräuselnde Oberfläche",
-    "path": "./images/16.png",
+    "path": "./mockImages/16.png",
     "date": "2023-05-23",
     "description": "Wasser, das in kleinen Wellen tanzt.",
     "size": "A4"
   },
   {
     "name": "Vergangene Zeit",
-    "path": "./images/17.png",
+    "path": "./mockImages/17.png",
     "date": "2022-09-10",
     "description": "Alte Mauern erzählen Geschichten.",
     "size": "A5"
   },
   {
     "name": "Stillleben",
-    "path": "./images/18.png",
+    "path": "./mockImages/18.png",
     "date": "2023-10-03",
     "description": "Ein ruhiges Arrangement aus Alltagsgegenständen.",
     "size": "A4"
   },
   {
     "name": "Lichterkette",
-    "path": "./images/19.png",
+    "path": "./mockImages/19.png",
     "date": "2023-12-01",
     "description": "Lichter in der Dunkelheit, wie kleine Sterne.",
     "size": "A6"
   },
   {
     "name": "Morgentau",
-    "path": "./images/20.png",
+    "path": "./mockImages/20.png",
     "date": "2023-04-07",
     "description": "Tautropfen auf einem Blatt bei Sonnenaufgang.",
     "size": "A5"
   },
   {
     "name": "Zugvögel",
-    "path": "./images/21.png",
+    "path": "./mockImages/21.png",
     "date": "2022-10-14",
     "description": "Vögel am Himmel auf ihrer Reise.",
     "size": "A6"
   },
   {
     "name": "Laternenlicht",
-    "path": "./images/22.png",
+    "path": "./mockImages/22.png",
     "date": "2023-11-12",
     "description": "Ein Laternenlicht in der Herbstnacht.",
     "size": "A4"
   },
   {
     "name": "Stille Straße",
-    "path": "./images/23.png",
+    "path": "./mockImages/23.png",
     "date": "2023-01-09",
     "description": "Eine verlassene Straße im Morgengrauen.",
     "size": "A6"
   },
   {
     "name": "Farbenspiel",
-    "path": "./images/24.png",
+    "path": "./mockImages/24.png",
     "date": "2023-07-29",
     "description": "Lichtspiele auf einer bunten Wand.",
     "size": "A5"
   },
   {
     "name": "Wasserfarben-Traum",
-    "path": "./images/25.png",
+    "path": "./mockImages/25.png",
     "date": "2024-02-17",
     "description": "Pastellfarbene Aquarellkomposition.",
     "size": "A4"
   },
   {
     "name": "Fensterblick",
-    "path": "./images/26.png",
+    "path": "./mockImages/26.png",
     "date": "2023-03-02",
     "description": "Ein Blick aus dem Fenster auf einen regnerischen Tag.",
     "size": "A6"
   },
   {
     "name": "Feine Linien",
-    "path": "./images/27.png",
+    "path": "./mockImages/27.png",
     "date": "2023-09-21",
     "description": "Filigrane Linien wie ein Netz.",
     "size": "A5"
   },
   {
     "name": "Bergspitze",
-    "path": "./images/28.png",
+    "path": "./mockImages/28.png",
     "date": "2023-08-05",
     "description": "Ein schneebedeckter Gipfel im Sonnenlicht.",
     "size": "A4"
   },
   {
     "name": "Tanzender Rauch",
-    "path": "./images/29.png",
+    "path": "./mockImages/29.png",
     "date": "2022-11-30",
     "description": "Dünne Rauchfäden, die sich auflösen.",
     "size": "A6"
   },
   {
     "name": "Winterwald",
-    "path": "./images/30.png",
+    "path": "./mockImages/30.png",
     "date": "2023-12-22",
     "description": "Ein verschneiter Wald im frühen Morgenlicht.",
     "size": "A4"
   },
   {
     "name": "Rostige Struktur",
-    "path": "./images/31.png",
+    "path": "./mockImages/31.png",
     "date": "2023-02-11",
     "description": "Verwitterter Stahl mit Charme.",
     "size": "A5"
   },
   {
     "name": "Lichterspiel",
-    "path": "./images/32.png",
+    "path": "./mockImages/32.png",
     "date": "2023-06-28",
     "description": "Tanzende Lichtpunkte an einer Wand.",
     "size": "A6"
   },
   {
     "name": "Horizontlinie",
-    "path": "./images/33.png",
+    "path": "./mockImages/33.png",
     "date": "2023-05-12",
     "description": "Ein ruhiger Horizont am Meer.",
     "size": "A4"
   },
   {
     "name": "Flüchtiger Moment",
-    "path": "./images/34.png",
+    "path": "./mockImages/34.png",
     "date": "2023-10-18",
     "description": "Ein Blick, der nur kurz bestand.",
     "size": "A6"
   },
   {
     "name": "Wolkenspiel",
-    "path": "./images/35.png",
+    "path": "./mockImages/35.png",
     "date": "2022-07-26",
     "description": "Wolkenformationen wie Skulpturen.",
     "size": "A4"
   },
   {
     "name": "Straßenflucht",
-    "path": "./images/36.png",
+    "path": "./mockImages/36.png",
     "date": "2023-03-27",
     "description": "Eine Straße zieht sich durch die Landschaft.",
     "size": "A5"
   },
   {
     "name": "Verwaschene Erinnerung",
-    "path": "./images/37.png",
+    "path": "./mockImages/37.png",
     "date": "2023-01-31",
     "description": "Ein Bild wie aus einem Traum.",
     "size": "A4"
   },
   {
     "name": "Struktur & Fläche",
-    "path": "./images/38.png",
+    "path": "./mockImages/38.png",
     "date": "2024-04-04",
     "description": "Gegenüberstellung von Form und Textur.",
     "size": "A6"
   },
   {
     "name": "Neonlicht",
-    "path": "./images/39.png",
+    "path": "./mockImages/39.png",
     "date": "2023-11-29",
     "description": "Grelles Licht in der Dunkelheit.",
     "size": "A5"
   },
   {
     "name": "Verwinkelter Blick",
-    "path": "./images/40.png",
+    "path": "./mockImages/40.png",
     "date": "2023-02-03",
     "description": "Ein ungewöhnlicher Winkel auf ein vertrautes Objekt.",
     "size": "A6"
   },
   {
     "name": "Schwarzweißkontrast",
-    "path": "./images/41.png",
+    "path": "./mockImages/41.png",
     "date": "2023-04-19",
     "description": "Ein Spiel aus Hell und Dunkel.",
     "size": "A4"

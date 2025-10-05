@@ -1,5 +1,5 @@
 <template>
- <div class="filter-box">
+  <div class="filter-box">
     <!-- Suchfeld oben -->
     <div class="search-container">
       <input
@@ -26,6 +26,11 @@
           {{ size }}
         </option>
       </select>
+
+      <!-- 👇 Neuer Button -->
+      <button @click="$emit('toggle-mock')">
+        {{ useMockData ? 'Show My Art' : 'Show Mock Data' }}
+      </button>
     </div>
   </div>
 </template>
@@ -38,7 +43,8 @@ import pictureData from "../assets/data/pictureData.json"
 const props = defineProps({
   reverseOrder: Boolean,
   selectedSize: String,
-  searchQuery: String
+  searchQuery: String,
+  useMockData: Boolean // 👈 neu
 })
 
 // Lokale States für Inputs
@@ -52,8 +58,8 @@ const uniqueSizes = computed(() => {
 })
 
 // Props -> Local sync
-watch(() => props.searchQuery, val => localSearch.value = val)
-watch(() => props.selectedSize, val => localSize.value = val)
+watch(() => props.searchQuery, val => (localSearch.value = val))
+watch(() => props.selectedSize, val => (localSize.value = val))
 </script>
 
 <style scoped>
@@ -63,7 +69,7 @@ watch(() => props.selectedSize, val => localSize.value = val)
   border: 1px solid #ccc;
   border-radius: 8px;
   display: flex;
-  flex-direction: column; /* Spaltenlayout: Suche oben, Controls unten */
+  flex-direction: column;
   gap: 1rem;
   align-items: center;
   justify-content: center;
