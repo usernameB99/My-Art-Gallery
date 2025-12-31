@@ -29,10 +29,19 @@
         :key="index"
         class="gallery-item"
       >
-        <img :src="image.path" :alt="image.description" />
+        <img :src="image.path" :alt="image.description" @click="openImage(image)"/>
       </div>
     </div>
   </div>
+
+  <!-- Lightbox -->
+<Lightbox
+  v-if="openLightbox"
+  :images="flatImages.map(img => img.path)"
+  :currentIndex="currentIndex"
+  @close="openLightbox = false"
+  @update:index="currentIndex = $event"
+/>
 </template>
 
 <script setup>
@@ -40,6 +49,7 @@ import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
 import pictureData from "../assets/data/pictureData.json"
 import mockPictureData from "../assets/data/mockPictureData.json"
 import GalleryFilter from "./GalleryFilter.vue"
+import Lightbox from "./Lightbox.vue"
 
 const columns = ref([])
 const columnCount = ref(1)
@@ -49,6 +59,11 @@ const useMockData = ref(false) // 👈 Mockdaten-Schalter
 
 const selectedSize = ref('')
 const searchQuery = ref('')
+
+// --- LIGHTBOX STATE ---
+const openLightbox = ref(false)
+const currentIndex = ref(0)
+const flatImages = computed(() => filteredImages.value)
 
 // --- FILTERED IMAGES ---
 const filteredImages = computed(() => {
@@ -123,6 +138,17 @@ function calculateColumnCount() {
   /* else columnCount.value = 1 */
 
   distributeImages()
+}
+
+// --- LIGHTBOX ---
+function openImage(image) {
+  const index = flatImages.value.findIndex(
+    img => img.path === image.path
+  )
+  if (index !== -1) {
+    currentIndex.value = index
+    openLightbox.value = true
+  }
 }
 
 onMounted(() => {
