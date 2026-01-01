@@ -15,6 +15,8 @@
     @update-search="updateSearch"
     @toggle-mock="toggleMockData"
     :use-mock-data="useMockData"
+    @toggle-doodles="toggleDoodles"
+    :show-doodles="showDoodles"
   />
 
   <!-- Galerie -->
@@ -56,6 +58,7 @@ const columnCount = ref(1)
 const reverseOrder = ref(true)
 const showFilters = ref(false)
 const useMockData = ref(false) // 👈 Mockdaten-Schalter
+const showDoodles = ref(false) // 👈 doodles
 
 const selectedSize = ref('')
 const searchQuery = ref('')
@@ -69,6 +72,11 @@ const flatImages = computed(() => filteredImages.value)
 const filteredImages = computed(() => {
   // 👇 Dynamisch zwischen echten und Mockdaten wechseln
   let images = useMockData.value ? [...mockPictureData] : [...pictureData]
+
+  // 👇 Doodles filtern
+  if (!showDoodles.value) {
+    images = images.filter(img => !img.path?.includes("doodle"))
+  }
 
   // Reihenfolge
   if (reverseOrder.value) {
@@ -115,6 +123,11 @@ function toggleMockData() {
   // Optional: Filter zurücksetzen
   selectedSize.value = ''
   searchQuery.value = ''
+  distributeImages()
+}
+
+function toggleDoodles() {
+  showDoodles.value = !showDoodles.value
   distributeImages()
 }
 

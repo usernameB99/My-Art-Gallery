@@ -17,7 +17,7 @@
       </button>
 
       <select v-model="localSize" @change="$emit('update-size', localSize)">
-        <option value="">Alle Größen</option>
+        <option value="">All Sizes</option>
         <option
           v-for="size in uniqueSizes"
           :key="size"
@@ -27,7 +27,12 @@
         </option>
       </select>
 
-      <!-- 👇 Neuer Button -->
+      <!-- 👇 Neuer Button / show doodles -->
+      <button @click="$emit('toggle-doodles')">
+        {{ showDoodles ? 'Hide Doodles' : 'Show Doodles' }}
+      </button>
+
+      <!-- 👇 Neuer Button / mock-img -->
       <button @click="$emit('toggle-mock')">
         {{ useMockData ? 'Show My Art' : 'Show Mock Data' }}
       </button>
@@ -44,7 +49,8 @@ const props = defineProps({
   reverseOrder: Boolean,
   selectedSize: String,
   searchQuery: String,
-  useMockData: Boolean // 👈 neu
+  useMockData: Boolean, // 👈 neu
+  showDoodles: Boolean //doodles neu
 })
 
 // Lokale States für Inputs
